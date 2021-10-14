@@ -18,7 +18,7 @@
                 if (file_exists($FileName)) {
                     include_once $FileName;
                 } else {
-                    include 'View/Error.php';
+                    include 'Infrastructure/views/error.php';
                 }
             }else{
                 include "Infrastructure/dB/selectLists.php";

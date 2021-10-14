@@ -15,6 +15,6 @@ function select(){
 }
 
 $lists = select();
-include 'Infrastructure/views/allLists.php';
+include_once 'Infrastructure/views/allLists.php';
 
 

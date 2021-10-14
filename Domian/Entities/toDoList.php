@@ -4,7 +4,7 @@
 /**
  * to do list properties
  */
-class toDolist {
+class toDoList {
     private $idList;
     public $name;
 }

@@ -1,5 +1,5 @@
 <?php
-include "Model/Config.php";
+include "Infrastructure/dB/config.php";
 
 /**
  * Description of Conexion

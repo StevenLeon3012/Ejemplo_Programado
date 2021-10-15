@@ -16,9 +16,11 @@ class toDoList {
         $this->idList = $idList;
         $this->name = $name;
     }
+    //Devuelve el id de la lista
     public function idList(){
         return $this->idList;
     }
+    //Devuelve el nombre de la lista
     public function name(){
         return $this->name;
     }

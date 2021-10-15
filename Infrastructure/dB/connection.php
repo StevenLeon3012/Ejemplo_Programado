@@ -16,7 +16,7 @@ class Connection {
   }
   
   /**
-   * Open DB connection, usign PDO object
+   * Abrir DB conexion, usando un PDO object
    * @return \PDO open conexion
    */
   public function Open() {
